@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.hargun{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+.nav-item:hover{
+  cursor: pointer;
+}
+#news{
+  padding-top:100px;
+}
+body{
+  background-color: rgb(81, 81, 81);
+}
+body::-webkit-scrollbar{
+  display: none;
+}
