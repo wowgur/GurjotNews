@@ -8,7 +8,7 @@ export default function  Nav() {
 
   function query(a){
     document.getElementById("heading").innerHTML = `TOP HEADLINES - ${a.toUpperCase()}`
-    document.title = `Gurjot - ${a.toUpperCase()}`
+    document.title = `GURJOT - ${a.toUpperCase()}`
     setState({topic:a,key:a})
   }
 
