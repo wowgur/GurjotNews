@@ -1,6 +1,5 @@
 import './App.css';
 import Nav from './components/Nav';
-import NewsCard from './components/NewsCard';
 
 function App() {
   return (

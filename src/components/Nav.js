@@ -8,7 +8,7 @@ export default function  Nav() {
 
   function query(a){
     document.getElementById("heading").innerHTML = `TOP HEADLINES - ${a.toUpperCase()}`
-    document.title = `Harpreet - ${a.toUpperCase()}`
+    document.title = `Gurjot - ${a.toUpperCase()}`
     setState({topic:a,key:a})
   }
 
@@ -18,7 +18,7 @@ export default function  Nav() {
         <nav className="navbar navbar-expand-lg bg-dark text-light">
           <div className="container-fluid">
             <a href="./fly.jpg"><img src="./fly.jpg" style={{borderRadius:"50%",height:"4.5vh",width:"4.5vh",marginRight:"1vw"}}/></a>
-            <span className="navbar-brand text-light">Harpreet News</span>
+            <span className="navbar-brand text-light">Gurjot News</span>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
